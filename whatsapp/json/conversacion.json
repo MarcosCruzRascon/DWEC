@@ -1,15 +1,48 @@
 [{
-    "id": "37",
-    "sender": "777777",
-    "receiver": "6666666",
-    "mensaje": "HOLA",
-    "fechaHora": "12:01:01 21/01/2021",
-    "estado": "2"
-}, {
-    "id": "39",
-    "sender": "6666666",
-    "receiver": "777777",
-    "mensaje": "Como estas",
-    "fechaHora": "12:01:10 21/01/2021",
-    "estado": "2"
-}]
+        "id": "37",
+        "sender": "777777777",
+        "receiver": "66666666",
+        "mensaje": "HOLA marcos",
+        "fechaHora": "12:01:01 21/01/2021",
+        "estado": "2"
+    }, {
+        "id": "39",
+        "sender": "66666666",
+        "receiver": "777777777",
+        "mensaje": "Como estas Alvaro",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    },
+    {
+        "id": "38",
+        "sender": "66666666",
+        "receiver": "777777778",
+        "mensaje": "Hola Juan",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    },
+    {
+        "id": "35",
+        "sender": "777777778",
+        "receiver": "66666666",
+        "mensaje": "Como estas marcos",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    },
+    {
+        "id": "32",
+        "sender": "66666666",
+        "receiver": "777777778",
+        "mensaje": "Bien y tu Juan",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    },
+    {
+        "id": "31",
+        "sender": "777777778",
+        "receiver": "66666666",
+        "mensaje": "Bien tio",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    }
+]
