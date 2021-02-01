@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichar</title>
+    <style>
+        .oculto {
+            display: none;
+        }
+        
+        table {
+            width: 70%;
+        }
+        
+        table td {
+            padding: 2px;
+            border: 1px solid black;
+        }
+    </style>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div>
+    <h1>Trabajador</h1>
+    <input type="text" placeholder="DNI">
+    <button id="fichar">Fichar</button>
+</div>
+
+<br/>
+
+<div>
+    <h1>Trabajando</h1>
+    <table id="trabajadores">
+        <thead>
+            <tr>
+                <td>Empleado</td>
+                <td>Hora comienzo</td>
+                <td>Tiempo</td>
+                <td>opciones</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<br/>
+
+<div>
+    <h1>Parados</h1>
+    <table id="parados" class="blueTable">
+        <thead>
+            <tr>
+                <td>Empleado</td>
+                <td>Hora comienzo</td>
+                <td>Tiempo</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>
+
+<body>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="script.js"></script>
+<script>
+    function generar(){
+        var numero=document.getElementById("num").value;
+        if(numero!="")
+        {
+            document.getElementById("tabla").innerHTML=
+            tablaMultiplicar(document.getElementById("num").value)
+        }
+        else
+        {
+            for(i=1;i<=10;i++)
+            document.getElementById("tabla").innerHTML+=
+            tablaMultiplicar(i).value
+        }
+    }
+
+    function cuenta(){
+        var caracter=document.getElementById("letra").value;
+        var texto=document.getElementById("texto").value;
+        var apariciones=contarLetras(caracter, texto);
+        document.getElementById("resp").innerHTML= apariciones + " apariciones";
+        document.getElementById("resp").style.color=
+            (apariciones<10)?"red":"green"
+        document.getElementById("resp").style.fontSize=
+            (apariciones<10)?"24px":"10px"
+    }
+</script>
+<body>
+    <p>Generar tabla del <input type="text" id="num"> 
+        
+        <button onclick="generar()">Generar Tabla de multiplicar</button>  
+    </p>
+    <div id="tabla">
+
+    </div>
+
+    <p>
+        Introduce la letra a mostrar <input type="text" maxlength="1" id="letra"/>
+        <input type="button" value="Contar" onclick="cuenta()"/><span id="resp"></span></br>
+        <textarea id="texto" cols="40" rows="20"></textarea>
+    </p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="propietario" style="display: block;">
+        <label for="dni">DNI</label>
+        <input type="text" name="dni" id="dni"><br/>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"><br/>
+        <label for="fechaNacimiento">Fecha nacimiento</label>
+        <input type="date" name="fechaNac" id="fechaNac"><br/>
+    </div>
+
+    <div id="vehiculo" style="display: none;">
+        <label for="marca">Marca</label>
+        <input type="text" name="marca" id="marca"><br/>
+        <label for="modelo">Modelo</label>
+        <input type="text" name="modelo" id="modelo"><br/>
+        <label for="anioFabricacion">Año fabricacion</label>
+        <input type="date" name="anioFabricacion" id="anioFabricacion"><br/>
+    </div>
+
+    <div id="seguro" style="display: none;">
+        <label for=" tipoSeguro">Tipo seguro</label><br/>
+
+        <label for="todoRiesgoSinFranquicia">Todo riesgo sin franquicia</label><input type="radio" name="seguro" id="todoRiesgoSinFranquicia"><br/>
+
+        <label for="todoRiesgoConFranquicia">Todo riesgo con franquicia</label><input type="radio" name="seguro" id="todoRiesgoConFranquicia">
+        <input type="text" name="tipoTodoRiesgoConFranquicia" id="tipoTodoRiesgoConFranquicia" disabled><br/>
+
+        <br/>
+
+        <label for="aTercero">A terceros</label>
+        <input type="radio" name="seguro" id="aTerceros">
+        <input type="checkbox" name="luna" id="luna" disabled><label for="luna">Lunas</label>
+        <input type="checkbox" name="asistencia" id="asistencia" disabled "><label for="asistencia ">Asistencia en carretera</label>
+        <input type="checkbox " name="multas " id="multas " disabled><label for="multas ">Multas</label>
+    </div>
+
+    <button id="anterior "> < Anterior</button>
+    <button id="siguiente ">Siguiente ></button>
+
+
+</body>
+
+</html>

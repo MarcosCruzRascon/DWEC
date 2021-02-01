@@ -1,0 +1,12 @@
+table{border: 1px solid;
+    width: 700px;
+    position: relative;
+    height: 300px;
+    
+}
+
+span{
+    display: inline-block;
+    width: 150px;
+}
+

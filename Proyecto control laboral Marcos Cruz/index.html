@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        .oculto {
+            display: none;
+        }
+        
+        table {
+            width: 70%;
+        }
+        
+        table td {
+            padding: 2px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nombre">
+            MI EMPRESA
+        </div>
+        <div class="fecha" id="fechaHora">
+            <input type="datetime-local" id="cambiaFecha">
+        </div>
+    </header>
+
+    <div class="izquierda">
+        <button class="botonesIzquierda" id="menuTrabajadores">Trabajadores</button><br/>
+        <button class="botonesIzquierda" id="menuEmpresa">Empresa</button><br/>
+        <button class="botonesIzquierda" id="menuFichar">Fichar</button>
+    </div>
+    <div class="main">
+        <div id="trabajadores" style="display: none;">
+            <br /> <br />
+            <center>
+                <button id="contratarNuevo">Contratar</button>
+                <table id="empleados" class="blueTable">
+                    <thead>
+                        <tr>
+                            <th>Nombre Empleado</th>
+                            <th>Dni</th>
+                            <th>Horas contratadas</th>
+                            <th>Despedir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+
+            <center>
+                <div id="contratacion" style="display: none;">
+                    <h1>Contratar trabajador</h1>
+                    <h2>Trabajador DNI</h2>
+                    <input id="dni" type="text" placeholder="DNI">
+                    <h2>Horas contratadas</h2>
+                    <input id="horasContrato" type="number" min="1" max="8" placeholder="Horas contrato">
+                    <h2>Nombre</h2>
+                    <input id="nombre" type="text" placeholder="Nombre">
+                    <button id="nuevoEmpleado">Contratar</button>
+                    <br/><br/><br/><br/>
+                </div>
+            </center>
+        </div>
+
+        <div id="empresa" class="empresa" style="display: none;">
+
+            <div>
+                <label>Nombre de la empresa</label>
+                <br/><input id="nombreEmpresa"><br/>
+                <label>Hora inicio</label>
+                <br/><input id="hInicio" type="time"><br/>
+                <label>Hora fin</label>
+                <br/><input id="hFin" type="time"><br/>
+                <label>Maximo personas conectadas</label>
+                <br/><input id="maxPersonas" type="number"><br/>
+                <br/><button id="modificaEmpresa">Guardar modificaciones</button><br/>
+            </div>
+        </div>
+
+        <div id="divFichar" style="display: block;">
+            <center>
+                <h1>Trabajador</h1>
+                <input type="text" id="dniTrabajar" placeholder="DNI">
+                <button id="fichar">Fichar</button>
+                <div id="descansarParar" style="display: none;">
+                    <label>¿Descansar o dar de mano?</label>
+                    <button id="descansar">Descansar</button>
+                    <button id="parar">Parar</button>
+                </div>
+                <table id="trabajando">
+                    <thead>
+                        <tr>
+                            <td>DNI</td>
+                            <td>Empleado</td>
+                            <td>Hora comienzo</td>
+                            <td>Descansos realizados hoy</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <br /> <br />
+
+                <table id="descansando">
+                    <thead>
+                        <tr>
+                            <td>DNI</td>
+                            <td>Empleado</td>
+                            <td>Hora comienzo</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+
+        </div>
+    </div>
+</body>
+
+</html>
