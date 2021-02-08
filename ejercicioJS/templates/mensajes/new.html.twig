@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Mensajes{% endblock %}
+
+{% block body %}
+    <h1>Create new Mensajes</h1>
+
+    {{ include('mensajes/_form.html.twig') }}
+
+    <a href="{{ path('mensajes_index') }}">back to list</a>
+{% endblock %}

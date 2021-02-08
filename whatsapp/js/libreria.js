@@ -27,9 +27,21 @@ $(document).ready(function() {
                                         $(divmensaje).css({ "background-color": "grey" });
                                         $(divmensaje).addClass("recibidos");
                                     }
+
                                     $("#chat").append($(divmensaje));
                                 }
                             }
+                            var divenvio = $("<div>");
+                            var enviar = $("<input>");
+                            var boton = $("<button>");
+                            boton.text("Enviar");
+                            $(divenvio).append(enviar);
+                            $(divenvio).append(boton);
+                            $(boton).click(function() {
+                                //$("input").val();
+
+                            });
+                            $("#enviar").append($(divenvio));
 
                         });
                     });
@@ -44,4 +56,5 @@ $(document).ready(function() {
 
 function borrar() {
     $("#chat").children().remove();
+    $("#enviar").children().remove();
 }

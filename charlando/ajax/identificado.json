@@ -1,0 +1,18 @@
+{
+    "mitelefono": "66666666",
+    "contactos": [{
+            "telefono": "777777777",
+            "foto": "data:..........",
+            "nombre": "Alvaro",
+            "ultimo": { "mensaje": "lakjsdfhlskaj", "estado": "", "fecha": "12/01/2021" },
+            "noleidos": "4"
+        },
+        {
+            "telefono": "777777778",
+            "foto": "data:..........",
+            "nombre": "Juan",
+            "ultimo": { "mensaje": "Hola", "estado": "2", "fecha": "12/01/2021" },
+            "noleidos": ""
+        }
+    ]
+}

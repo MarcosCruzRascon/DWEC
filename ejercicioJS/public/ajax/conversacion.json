@@ -1,0 +1,48 @@
+[{
+        "id": "31",
+        "sender": "777777777",
+        "receiver": "66666666",
+        "mensaje": "HOLA marcos",
+        "fechaHora": "12:01:01 21/01/2021",
+        "estado": "2"
+    }, {
+        "id": "32",
+        "sender": "66666666",
+        "receiver": "777777777",
+        "mensaje": "Como estas Alvaro",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    },
+    {
+        "id": "33",
+        "sender": "66666666",
+        "receiver": "777777778",
+        "mensaje": "Hola Juan",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    },
+    {
+        "id": "34",
+        "sender": "777777778",
+        "receiver": "66666666",
+        "mensaje": "Como estas marcos",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    },
+    {
+        "id": "35",
+        "sender": "66666666",
+        "receiver": "777777778",
+        "mensaje": "Bien y tu Juan",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    },
+    {
+        "id": "36",
+        "sender": "777777778",
+        "receiver": "66666666",
+        "mensaje": "Bien tio",
+        "fechaHora": "12:01:10 21/01/2021",
+        "estado": "2"
+    }
+]
